@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    text-align: center;
+    color: rgb(241, 241, 243);
+}
+
+h2{
+    
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+#logo {
+    width: 60%;
+
+    
+}
+
+.navbar-inverse{
+    list-style: none ;
+    position:fixed;
+    top: 0px;
+    
+    z-index: 10;
+    cursor:pointer;
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    background-color: rgba(241, 8, 8, 0.993) ;
+    
+    width: 100%;
+    margin-left: 0% !important;
+    margin-top: 0% !important;
+
+
+}
+
+.imagem {
+    width: 60%;
+}
+.resumo {
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+    
+    margin: 20px;
+
+}
+ 
+    
+
+#title {
+    
+    font-size:25px ;
+    
+}
+
+.consoles {
+    width: 90%;
+        
+}
+.imgconsole {
+    display: grid;
+    grid-template-columns: 32% 32% 32%; 
+    padding: 20px;
+    
+    background-color: aliceblue;
+    
+}
+#nomeconsole {
+    
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+#linkmenu {
+    
+    font-size: 20px;
+    text-decoration: none;
+}
+#trailer {
+    
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+
+.myNavbar
+{
+    
+    position:sticky;
+    top:0;
+    z-index:99999
+}
